@@ -1,0 +1,208 @@
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="portfolioWslider.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Acme&display=swap" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+        integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        
+        <link rel="stylesheet" type='text/css' href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.css">
+        <!-- this src file copied from slick cdn -->
+    <title>Personal Portfolio Page</title>
+</head>
+
+<body> 
+    <div class='container-fluid '>
+        <nav id='navbar' class='navbar navbar-expand-sm bg-transparent navbar-white fixed-top m-2 p-7 justify-content-end '>
+            
+            <ul class='navbar-nav fix'>
+                <li class="nav-item fix "> <a class='nav-link click-pad active' href="#welcome-section"> Bio </a></li>
+                <li class="nav-item fix"> <a class='nav-link click-pad' href="#projects"> Projects</a></li>
+                <li class="nav-item fix"> <a class='nav-link click-pad' href="#profile-link"> Links </a></li>
+            </ul>
+        </nav>
+        
+       
+                <!-- <div class="slider " >
+                    <div>
+                        <h1 class="text-primary display-4">
+                            Hi, I am <br> Mohammad Alamin</h1>
+                    </div>
+                    <div>
+                        <h1 class="text-white display-4">
+                            Welcome to my page</h1>
+                    </div>
+                    <div>
+                        <h1 class="text-success display-4">
+                            Hi, I am <br> Mohammad Alamin</h1>
+                    </div>
+                
+                </div>  -->
+
+                <div class="slider " style="margin-top: 14%;">
+                
+                    <h1 class="jumbotron text-primary bg-transparent display-4"
+                      style="height: 40%; "  > Hi, I am <br> Mohammad Alamin</h1>
+                    <h1 class="jumbotron text-success display-4"
+                      style="height: 40%;background-color: rgba(8, 174, 185, 0.4)"  > Welcome to my page
+                    </h1>
+                    <h2 class="jumbotron text-warning "
+                       style="height: 40%;background-color: rgba(209, 245, 49, 0.4)" >
+                        Scroll down for My <br> projects and links  </h2>
+                    <h2 class="jumbotron text-white "
+                        style="height: 40%; background-color: rgba(233, 10, 10, 0.3);"> Please feel free to contact for <br> projects and feedback</h2>
+                </div> <br>
+
+                <section id='welcome-section' class="text-center main-section">
+                    <h1 class="text-center text-white"> I am a Trainee Web Designer and Developer</h1> 
+                <h4 class='text-white'>  I am based in Londoon, United Kingdom.
+                    I love to create simple, beautiful and user friendly Websites.<br> My goal is to become a Front-end Web developer, Create interactive 
+                    Websites that is kind to eyes and also can make an possitive impact on people's life. I also like Digital Arts, Graphic and Motion Design.
+                 <br> Please feel free to contact me on my email.</h4> 
+                </section>
+            <hr>
+            <br> <br>
+            <section id='projects' class='text-center main-section'>
+                <h2 style="color: rgb(187, 2, 147);"> My Projects :</h2>
+                <div class="btn-group-vertical btn-group-md btn-block col-md-5">
+                    <button id='2ndtdp' type="button" class='btn btn-success project-tile '> 2nd Technical
+                    Documentation Page - <strong>
+                        </strong> <a href="https://alamin-eng.github.io/F-22-Raptor/" class='text-warning'> Raptor F-22</a> </button>
+                    <button id='tribute' type="button" class="btn btn-success project-tile"> <strong> Tribute Page -
+                        </strong><a href='' class='text-warning'>War and genocide</a> </button>
+                    <button id='survey' type="button" class="btn btn-success project-tile"> <strong> Survey Form -
+                        </strong><a href='' class='text-warning'> Annual Pancake Breakfast</a> </button>
+                    <button id='landing' type="button" class="btn btn-success project-tile"> <strong> Product Landing
+                            Page - </strong> <a href='' class='text-warning'>Green Energy</a></button>
+                    <button id='tech' type="button" class="btn btn-success project-tile"> <strong> Technical
+                            Documentation Page - </strong><a href='' class='text-warning'>Telescope</a> </button>
+                    <button id='tribute2' type="button" class='btn btn-success project-tile'><strong>
+                        Tribute Page 2 - </strong> <a href="" class='text-warning'> MAH Vashani</a> </button>
+                    <button id='ramadan-karem' type="button" class='btn btn-success project-tile'><strong>
+                                Islamic - </strong> <a href="" class='text-warning'> Ramadan Karem</a> </button>
+                    <button id='2ndPlPage' type="button" class='btn btn-success project-tile'>2nd version of PL page - <strong>
+                             </strong> <a href="" class='text-warning'> Green Energy</a> </button>
+                    <button id='portfolio' type="button" class='btn btn-success project-tile'> About Me - <strong>
+                        </strong> <a href="https://alamin-eng.github.io/portfolio/" class='text-warning'> Portfolio </a> </button>
+                        
+                </div>
+            </section>
+        
+<br>
+       
+        
+            <footer id='profile-link' class='text-center rounded main-section' style="height:auto; background-color: rgb(1, 24, 18,.45)">
+            
+            
+                <h4 class="text-info p-4 mb-2">External Links-</h4>
+            
+                <a id='profile-link' target='_blank' href="https://github.com/Alamin-eng" class="text-center "
+                    style="text-decoration:none;margin:2px;padding:4px;border-right: 2px solid rgb(209, 209, 209); display: inline;color: lime;">
+                    GitHub</a>
+                <a id='profile-link' target='_blank' href="https://codepen.io/alamin-m" class="text-center "
+                    style="text-decoration:none;margin:2px;padding:4px;border-right: 2px solid rgb(209, 209, 209); display: inline;color: lime;">
+                    Codepen</a>
+                <a id='profile-link' target='_blank' href="https://www.freecodecamp.org/fcc8e72332f-29b8-425d-af4c-2501184df900" class="text-center "
+                        style="text-decoration:none;margin:2px;padding:4px;border-right: 2px solid rgb(209, 209, 209); display: inline;color: lime;">
+                        FCC</a>
+                <a id='profile-link' target='_blank' href="mohammedalaminruben@gmail.com" class="text-center"
+                    style="text-decoration:none;margin:2px;padding:4px; display: inline;color: lime;">
+                    E-mail</a>
+                 <br> <br>
+            
+                <a style='text-decoration:none;' href="#" class="fa fa-facebook"></a>
+                <a style='text-decoration:none;' href="#" class="fa fa-twitter"></a>
+                <a style='text-decoration:none;' href="#" class="fa fa-google"></a>
+                <a style='text-decoration:none;' href="#" class="fa fa-linkedin"></a>
+                <a style='text-decoration:none;' href="#" class="fa fa-instagram"></a>
+            
+            
+                <br>
+                <p class='text-white m-2 p-3 text-center' style="font-size:.8em;"> &copy;2021 Mohammad
+                    Alamin<br>alaminruben@gmail.com </p>
+                <h4 id='h2' style="color:rgb(223, 0, 0);font-family: 'Dancing Script', cursive;"> Mohammad
+                Alamin</h4>
+            
+            </footer>
+        </div>
+
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+            integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+        <!-- this jquery is as usual jquery cdn file  -->
+        
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+        <!-- this src file copied from slick cdn -->
+        
+            
+        <script>
+            $(document).ready(function () {
+                $("#landing").click(function () {
+                    window.open('https://alamin-eng.github.io/solar-energy-panels/', '_blank');
+                });
+               
+                $("#tribute").click(function () {
+                    window.open('https://alamin-eng.github.io/tribute-page-1971/', '_blank')
+                });
+                $("#survey").click(function () {
+                    window.open("https://alamin-eng.github.io/survey-form.github.io/", '_blank');
+                });
+                $("#tech").click(function () {
+                    window.open("https://codepen.io/alamin-m/pen/abpwrwR", '_blank');
+                });
+                $('#tribute2').click(function(){
+                    window.open('https://codepen.io/alamin-m/pen/gOgZpPd?editors=1010', '_blank')
+                })
+                $('#ramadan-karem').click(function () {
+                    window.open('https://alamin-eng.github.io/Ramadan-kareem/', '_blank')
+                })
+                $('#2ndPlPage').click(function () {
+                    window.open('https://alamin-eng.github.io/WakawakaPortableSolarPower/', '_blank')
+                })
+                $('#portfolio').click(function () {
+                    window.open('https://alamin-eng.github.io/portfolio/', '_blank')
+                })
+                 $('#2ndtdp').click(function () {
+                    window.open(' ', '_blank')
+                })
+
+                  $('.click-pad').click(function () {
+                    $('.main-section').css({ 'margin': '2%', 'padding-top': '18%', });
+                    // a links class is used to on all h2 class to make space on click of nav bar
+                })
+            }); 
+        </script>
+
+        <script type="text/javascript">
+            $(document).ready(function () {
+
+                $('.slider').slick({
+                    slidesToShow: 1,
+                    slidesToScroll: 1,
+                    autoplay: true,
+                    autoplaySpeed: 2200,
+                    cssEase: 'ease-in-out',
+                    fade: true,
+                    arrows: false,// this line and following line is for hide the prev and next arrow on display
+
+                });
+            });
+        </script>
+    
+</body>
+
+</html>
